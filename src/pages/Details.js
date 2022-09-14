@@ -1,6 +1,10 @@
+import { Link } from 'react-router-dom';
+
 function Details() {
   return (
-    <div>Details</div>
+    <div>
+      <Link to="/">Home</Link>
+    </div>
   );
 }
 export default Details;
