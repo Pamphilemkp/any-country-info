@@ -1,0 +1,50 @@
+
+.container {
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.list {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90vw;
+}
+
+.headerIcones {
+  display: flex;
+  gap: 50px;
+}
+
+.icons {
+  width: 30px;
+  height: 30px;
+}
+
+.searchContainer {
+  display: flex;
+  width: 40vw;
+
+  /* border: solid 1px black; */
+}
+
+.searchInput {
+  width: 25vw;
+  border: solid 1px black;
+  outline: 0;
+}

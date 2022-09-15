@@ -1,8 +1,14 @@
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable react/prop-types */
 import React from 'react';
+import CountryDetail from './CountryDetail';
+import style from './components.module.css';
 
-function CountriesList() {
+function CountriesList(props) {
   return (
-    <div>CountriesList</div>
+    <ul className={style.container}>
+      <CountryDetail list={props.list} />
+    </ul>
   );
 }
 
