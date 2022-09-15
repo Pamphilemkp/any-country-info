@@ -2,14 +2,16 @@ import { Link, useLocation } from 'react-router-dom';
 import { FaArrowCircleLeft } from 'react-icons/fa';
 import Header from '../components/Header';
 import style from '../components/components.module.css';
+import Detailslist from '../components/DetailsList';
 
 function Details() {
   const response = useLocation();
-  console.log(response.state.value);
+  const data = response.state.value;
   return (
     <div>
       <Header />
       <Link to="/"><FaArrowCircleLeft className={style.icons} /></Link>
+      <Detailslist country={data} />
     </div>
   );
 }
