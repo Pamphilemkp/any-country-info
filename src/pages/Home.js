@@ -3,7 +3,6 @@
 
 import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { Link } from 'react-router-dom';
 import { FaSistrix } from 'react-icons/fa';
 import { countryInfo } from '../Redux/Store/Store';
 import CountriesList from '../components/CountriesList';
@@ -28,7 +27,6 @@ function Home() {
   return (
     <div>
       <Header />
-      <Link to="/Details">Details</Link>
       <div className={style.searchContainer}>
         <input type="text" className={style.searchInput} name="search" placeholder="search a country" onChange={(e) => searchHandle(e)} />
         <label htmlFor="search"><FaSistrix className={style.icons} /></label>
