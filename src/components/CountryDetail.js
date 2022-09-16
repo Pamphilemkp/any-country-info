@@ -16,17 +16,15 @@ function CountryDetail(props) {
         <li
           key={id}
           className={style.list}
-          onClick={() => {
-            navigation('/Details', { state: { value: country } });
-          }}
         >
-          <p>
+          <p className={style.flag} onClick={() => { navigation('/Details', { state: { value: country } }); }}>
             <img src={country.flags.svg} alt={country.name.common} className={style.image} />
-            <FaArrowAltCircleRight className={style.icons} />
+            <FaArrowAltCircleRight className={`${style.icons} ${style.PhoneIcons}`} />
+            ,
           </p>
-          <p>{country.name.official}</p>
+          <h4>{country.name.official}</h4>
           <p>
-            population :
+            <strong> Population : </strong>
             {' '}
             {country.population}
           </p>

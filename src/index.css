@@ -1,3 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins');
+
 body {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  color: white;
+  background-image: url('./assets/bg3.jpg');
+  background-size: cover;
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.detail-container {
+  display: flex;
+  justify-content: space-between;
+  width: 70vw;
+  padding: 0 50px 50px 50px;
+}
+
+.back {
+  padding: 50px 50px 0 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .detail-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    padding: 0 50px 50px 50px;
+  }
+
+  .back {
+    padding: 0 0 0 50px;
+    align-self: flex-start;
+  }
 }

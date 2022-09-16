@@ -24,11 +24,11 @@ function Home() {
   };
   const filteredCountry = Countries.filter((country) => country.name.official.toLowerCase().includes(countryName.toLowerCase()));
   return (
-    <div>
+    <div className="container">
       <Header />
       <div className={style.searchContainer}>
         <input type="text" className={style.searchInput} name="search" placeholder="search a country" onChange={(e) => searchHandle(e)} />
-        <label htmlFor="search"><FaSistrix className={style.icons} /></label>
+        <label htmlFor="Search"><FaSistrix className={style.mkp} /></label>
       </div>
       <CountriesList list={filteredCountry} />
     </div>

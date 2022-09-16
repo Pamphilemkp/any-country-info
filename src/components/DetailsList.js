@@ -7,7 +7,7 @@ import style from './components.module.css';
 
 function DetailsList(props) {
   return (
-    <div>
+    <div className="detail-container">
       <div>
         <p>{props.country.name.official}</p>
         <img src={props.country.flags.svg} alt={props.country.name.common} className={style.image} />
@@ -48,6 +48,7 @@ function DetailsList(props) {
             </span>
           ))}
         </p>
+
         <p>
           Continent :
           {'   '}
@@ -57,16 +58,6 @@ function DetailsList(props) {
           Subregion :
           {'   '}
           {props.country.subregion}
-        </p>
-        <p>
-          Borders :
-          {props.country.borders.map((value) => (
-            <span key={value}>
-              {'   '}
-              {value}
-              {' ,    '}
-            </span>
-          ))}
         </p>
         <p>
           Time Zone:

@@ -7,6 +7,7 @@ import style from './components.module.css';
 function Header() {
   return (
     <div className={style.header}>
+      <h3>2022</h3>
       <p>ANY COUNTRY INFO</p>
       <div className={style.headerIcones}>
         <BiMicrophone className={style.icons} />
