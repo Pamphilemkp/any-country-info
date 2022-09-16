@@ -18,7 +18,7 @@ Single page application giving general informations about  any country in the wo
 ## Live Demo 
 
 [Live Demo Link]()
-[Video]()
+[Video](https://www.loom.com/share/dc14a5e5b4b540d2a347d19fef80c975)
 
 
 ## To get a local copy up and running:
