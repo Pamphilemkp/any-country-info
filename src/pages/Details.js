@@ -8,9 +8,9 @@ function Details() {
   const response = useLocation();
   const data = response.state.value;
   return (
-    <div>
+    <div className="container">
       <Header />
-      <Link to="/"><FaArrowCircleLeft className={style.icons} /></Link>
+      <Link to="/" className="back"><FaArrowCircleLeft className={style.icons} /></Link>
       <Detailslist country={data} />
     </div>
   );

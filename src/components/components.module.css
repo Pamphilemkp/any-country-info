@@ -21,9 +21,10 @@
 
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   width: 90vw;
+  align-self: center;
 }
 
 .headerIcones {
@@ -38,13 +39,61 @@
 
 .searchContainer {
   display: flex;
-  width: 40vw;
-
-  /* border: solid 1px black; */
+  width: 27vw;
+  justify-content: space-between;
+  align-self: center;
+  margin: 40px 0;
+  border: solid 1px black;
+  border-radius: 20px;
+  padding: 5px;
 }
 
 .searchInput {
   width: 25vw;
-  border: solid 1px black;
+  border: 0;
   outline: 0;
+}
+
+.flag {
+  display: flex;
+  position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+  .image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .container {
+    padding-left: 0;
+  }
+
+  .searchContainer {
+    width: 40vw;
+  }
+
+  .headerIcones {
+    display: flex;
+    gap: 10px;
+    width: 90px;
+  }
+
+  .PhoneIcons {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    z-index: 3;
+    width: 15px;
+  }
+
+  .header {
+    padding: 30px 0;
+  }
+
+  .searchInput {
+    width: 35vw;
+    border: 0;
+    outline: 0;
+  }
 }
