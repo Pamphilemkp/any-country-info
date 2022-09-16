@@ -13,7 +13,7 @@ Single page application giving general informations about  any country in the wo
 - React with JSX
 - REDUX
 - API
--Testing
+- Testing
 
 ## Live Demo 
 
