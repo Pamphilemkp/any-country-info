@@ -23,7 +23,6 @@ function Home() {
     setCountry(event.target.value);
   };
   const filteredCountry = Countries.filter((country) => country.name.official.toLowerCase().includes(countryName.toLowerCase()));
-
   return (
     <div>
       <Header />
