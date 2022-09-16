@@ -17,7 +17,10 @@ Single page application giving general informations about  any country in the wo
 
 ## Live Demo 
 
-[Live Demo Link]()
+[Live Demo Link](https://pamphilemkp-countries-info.netlify.app/)
+
+## Live video
+
 [Video](https://www.loom.com/share/dc14a5e5b4b540d2a347d19fef80c975)
 
 
@@ -52,7 +55,7 @@ You may also see any lint errors in the console.
 
 ### Deployment
 
-[See project here](/)
+[See project here](https://pamphilemkp-countries-info.netlify.app/)
 
 ### APP DEMO
 ![Computer]()
