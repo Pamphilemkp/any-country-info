@@ -59,6 +59,21 @@ function DetailsList(props) {
           {props.country.subregion}
         </p>
         <p>
+          Borders :
+          {props.country.borders.map((value) => (
+            <span key={value}>
+              {'   '}
+              {value}
+              {' ,    '}
+            </span>
+          ))}
+        </p>
+        <p>
+          Time Zone:
+          {'   '}
+          {props.country.timezones[0]}
+        </p>
+        <p>
           Start of the week:
           {'   '}
           {props.country.startOfWeek}

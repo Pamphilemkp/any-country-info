@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the home page Snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div>
+          <p>
+            Republic of Finland
+          </p>
+          <img
+            alt="Finland"
+            class="image"
+            src="https://flagcdn.com/fi.svg"
+          />
+        </div>
+        <div>
+          <p>
+            Common name :
+               
+            Finland
+          </p>
+          <p>
+            Capital :
+               
+            Helsinki
+          </p>
+          <p>
+            Population :
+               
+            5530719
+          </p>
+          <p>
+            Languages :
+            <span>
+                 
+              Finnish
+               ,   
+            </span>
+            <span>
+                 
+              Swedish
+               ,   
+            </span>
+          </p>
+          <p>
+            Currencies :
+            <span>
+                 
+              EUR
+               
+            </span>
+          </p>
+          <p>
+            Continent :
+               
+            Europe
+          </p>
+          <p>
+            Subregion :
+               
+            Northern Europe
+          </p>
+          <p>
+            Borders :
+            <span>
+                 
+              NOR
+               ,    
+            </span>
+            <span>
+                 
+              SWE
+               ,    
+            </span>
+            <span>
+                 
+              RUS
+               ,    
+            </span>
+          </p>
+          <p>
+            Time Zone:
+               
+            UTC+02:00
+          </p>
+          <p>
+            Start of the week:
+               
+            monday
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div>
+        <p>
+          Republic of Finland
+        </p>
+        <img
+          alt="Finland"
+          class="image"
+          src="https://flagcdn.com/fi.svg"
+        />
+      </div>
+      <div>
+        <p>
+          Common name :
+             
+          Finland
+        </p>
+        <p>
+          Capital :
+             
+          Helsinki
+        </p>
+        <p>
+          Population :
+             
+          5530719
+        </p>
+        <p>
+          Languages :
+          <span>
+               
+            Finnish
+             ,   
+          </span>
+          <span>
+               
+            Swedish
+             ,   
+          </span>
+        </p>
+        <p>
+          Currencies :
+          <span>
+               
+            EUR
+             
+          </span>
+        </p>
+        <p>
+          Continent :
+             
+          Europe
+        </p>
+        <p>
+          Subregion :
+             
+          Northern Europe
+        </p>
+        <p>
+          Borders :
+          <span>
+               
+            NOR
+             ,    
+          </span>
+          <span>
+               
+            SWE
+             ,    
+          </span>
+          <span>
+               
+            RUS
+             ,    
+          </span>
+        </p>
+        <p>
+          Time Zone:
+             
+          UTC+02:00
+        </p>
+        <p>
+          Start of the week:
+             
+          monday
+        </p>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
