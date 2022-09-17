@@ -46,8 +46,30 @@ body {
     display: flex;
     flex-direction: column;
     width: 90vw;
+    gap: 10px;
     padding: 0 50px 50px 50px;
     flex-grow: 1;
+  }
+
+  .detail-flag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .space-global {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .space-elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 80vw;
+    flex-wrap: wrap;
   }
 
   .back {
