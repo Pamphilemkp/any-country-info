@@ -8,7 +8,7 @@ body {
   width: 100vw;
   font-family: "Poppins", sans-serif;
   height: 100vh;
-  color: white;
+  color: #fff;
   background-image: url('./assets/bg3.jpg');
   background-size: cover;
 }
@@ -22,9 +22,11 @@ body {
 
 .detail-container {
   display: flex;
-  justify-content: space-between;
-  width: 70vw;
+  flex-direction: column;
+  width: 90vw;
   padding: 0 50px 50px 50px;
+  flex-grow: 1;
+  align-self: center;
 }
 
 .back {
@@ -42,13 +44,14 @@ body {
 
   .detail-container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     width: 90vw;
     padding: 0 50px 50px 50px;
+    flex-grow: 1;
   }
 
   .back {
-    padding: 0 0 0 50px;
+    padding: 0 0 0 15px;
     align-self: flex-start;
   }
 }

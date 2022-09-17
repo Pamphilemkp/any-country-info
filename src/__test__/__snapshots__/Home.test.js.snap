@@ -5,10 +5,15 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
+      <div
+        class="container"
+      >
         <div
           class="header"
         >
+          <h3>
+            2022
+          </h3>
           <p>
             ANY COUNTRY INFO
           </p>
@@ -58,10 +63,10 @@ Object {
             type="text"
           />
           <label
-            for="search"
+            for="Search"
           >
             <svg
-              class="icons"
+              class="mkp"
               fill="currentColor"
               height="1em"
               stroke="currentColor"
@@ -83,10 +88,15 @@ Object {
     </div>
   </body>,
   "container": <div>
-    <div>
+    <div
+      class="container"
+    >
       <div
         class="header"
       >
+        <h3>
+          2022
+        </h3>
         <p>
           ANY COUNTRY INFO
         </p>
@@ -136,10 +146,10 @@ Object {
           type="text"
         />
         <label
-          for="search"
+          for="Search"
         >
           <svg
-            class="icons"
+            class="mkp"
             fill="currentColor"
             height="1em"
             stroke="currentColor"

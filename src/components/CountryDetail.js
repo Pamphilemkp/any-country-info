@@ -1,9 +1,8 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/destructuring-assignment */
 /* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
-/* eslint-disable react/destructuring-assignment */
-/* eslint-disable react/no-array-index-key */
-/* eslint-disable no-undef */
-/* eslint-disable react/prop-types */
+
 import { FaArrowAltCircleRight } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 import style from './components.module.css';
@@ -12,9 +11,9 @@ function CountryDetail(props) {
   const navigation = useNavigate();
   return (
     < >
-      {props.list.map((country, id) => (
+      {props.list.map((country) => (
         <li
-          key={id}
+          key={country.name.common}
           className={style.list}
         >
           <p className={style.flag} onClick={() => { navigation('/Details', { state: { value: country } }); }}>

@@ -1,9 +1,9 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
-import DetailsList from '../DetailsList';
+import CountriesDetail from '../components/CountryDetail';
 
-const data = {
+const data = [{
   name: {
     common: 'Finland',
     official: 'Republic of Finland',
@@ -31,40 +31,40 @@ const data = {
   subregion: 'Northern Europe',
   languages: { fin: 'Finnish', swe: 'Swedish' },
   translations:
-  {
-    ara: { official: 'جمهورية فنلندا', common: 'فنلندا' },
-    bre: { official: 'Republik Finland', common: 'Finland' },
-    ces: { official: 'Finská republika', common: 'Finsko' },
-    cym: { official: 'Republic of Finland', common: 'Finland' },
-    deu: { official: 'Republik Finnland', common: 'Finnland' },
-    est: { official: 'Soome Vabariik', common: 'Soome' },
-    fin: { official: 'Suomen tasavalta', common: 'Suomi' },
-    fra: { official: 'République de Finlande', common: 'Finlande' },
-    hrv: { official: 'Republika Finska', common: 'Finska' },
-    hun: { official: 'Finn Köztársaság', common: 'Finnország' },
-    ita: { official: 'Repubblica di Finlandia', common: 'Finlandia' },
-    jpn: {
-      official: 'フィンランド共和国',
-      common: 'フィンランド',
-    },
-    kor: { official: '핀란드 공화국', common: '핀란드' },
-    nld: {
-      official: 'Republiek Finland',
-      common: 'Finland',
-    },
-    per: { official: 'جمهوری فنلاند', common: 'فنلاند' },
-    pol: {
-      official: 'Republika Finlandii',
-      common: 'Finlandia',
-    },
-    por: { official: 'República da Finlândia', common: 'Finlândia' },
-    rus: { official: 'Финляндская Республика', common: 'Финляндия' },
-    slk: { official: 'Fínska republika', common: 'Fínsko' },
-    spa: { official: 'República de Finlandia', common: 'Finlandia' },
-    swe: { official: 'Republiken Finland', common: 'Finland' },
-    urd: { official: 'جمہوریہ فن لینڈ', common: 'فن لینڈ' },
-    zho: { official: '芬兰共和国', common: '芬兰' },
+{
+  ara: { official: 'جمهورية فنلندا', common: 'فنلندا' },
+  bre: { official: 'Republik Finland', common: 'Finland' },
+  ces: { official: 'Finská republika', common: 'Finsko' },
+  cym: { official: 'Republic of Finland', common: 'Finland' },
+  deu: { official: 'Republik Finnland', common: 'Finnland' },
+  est: { official: 'Soome Vabariik', common: 'Soome' },
+  fin: { official: 'Suomen tasavalta', common: 'Suomi' },
+  fra: { official: 'République de Finlande', common: 'Finlande' },
+  hrv: { official: 'Republika Finska', common: 'Finska' },
+  hun: { official: 'Finn Köztársaság', common: 'Finnország' },
+  ita: { official: 'Repubblica di Finlandia', common: 'Finlandia' },
+  jpn: {
+    official: 'フィンランド共和国',
+    common: 'フィンランド',
   },
+  kor: { official: '핀란드 공화국', common: '핀란드' },
+  nld: {
+    official: 'Republiek Finland',
+    common: 'Finland',
+  },
+  per: { official: 'جمهوری فنلاند', common: 'فنلاند' },
+  pol: {
+    official: 'Republika Finlandii',
+    common: 'Finlandia',
+  },
+  por: { official: 'República da Finlândia', common: 'Finlândia' },
+  rus: { official: 'Финляндская Республика', common: 'Финляндия' },
+  slk: { official: 'Fínska republika', common: 'Fínsko' },
+  spa: { official: 'República de Finlandia', common: 'Finlandia' },
+  swe: { official: 'Republiken Finland', common: 'Finland' },
+  urd: { official: 'جمہوریہ فن لینڈ', common: 'فن لینڈ' },
+  zho: { official: '芬兰共和国', common: '芬兰' },
+},
   latlng: [64.0, 26.0],
   landlocked: false,
   borders: ['NOR', 'SWE', 'RUS'],
@@ -89,11 +89,11 @@ const data = {
   startOfWeek: 'monday',
   capitalInfo: { latlng: [60.17, 24.93] },
   postalCode: { format: '#####', regex: '^(?:FI)*(\\d{5})$' },
-};
+}];
 test('should match the home page Snapshot', () => {
   const tree = render(
     <BrowserRouter>
-      <DetailsList country={data} />
+      <CountriesDetail list={data} />
     </BrowserRouter>,
   );
   expect(tree).toMatchSnapshot();

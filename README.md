@@ -21,7 +21,7 @@ Single page application giving general informations about  any country in the wo
 
 ## Live video
 
-[Video](https://www.loom.com/share/dc14a5e5b4b540d2a347d19fef80c975)
+[Video](https://www.loom.com/share/ecee57825a5f41d7a278cca44ae2b162)
 
 
 ## To get a local copy up and running:
@@ -81,8 +81,8 @@ Feel free to check the [issues page](https://github.com/Pamphilemkp/any-country-
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-- Inspiration
-- etc
+- Creative Commons Design by Nelson Sakwa 
+ [See original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
 
 ## 📝 License
 

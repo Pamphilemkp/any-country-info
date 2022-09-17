@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
-import CountriesDetails from '../CountriesList';
+import CountriesList from '../components/CountriesList';
 
 const data = [{
   name: {
@@ -93,7 +93,7 @@ const data = [{
 test('should match the home page Snapshot', () => {
   const tree = render(
     <BrowserRouter>
-      <CountriesDetails list={data} />
+      <CountriesList list={data} />
     </BrowserRouter>,
   );
   expect(tree).toMatchSnapshot();

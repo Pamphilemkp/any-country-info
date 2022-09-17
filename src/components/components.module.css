@@ -61,22 +61,28 @@
 
 @media only screen and (max-width: 768px) {
   .image {
-    width: 100px;
-    height: 100px;
+    width: 160px;
+    height: 160px;
   }
 
   .container {
-    padding-left: 0;
+    padding: 0;
+    padding-left: 30px;
+    justify-content: center;
+    gap: 1px;
+    margin: 0;
   }
 
   .searchContainer {
     width: 40vw;
+    padding: 0;
   }
 
   .headerIcones {
     display: flex;
-    gap: 10px;
+    justify-content: space-between;
     width: 90px;
+    padding: 0 15px;
   }
 
   .PhoneIcons {
@@ -88,12 +94,22 @@
   }
 
   .header {
-    padding: 30px 0;
+    padding-left: 15px;
+    width: 100vw;
   }
 
   .searchInput {
     width: 35vw;
     border: 0;
     outline: 0;
+  }
+
+  .list {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    padding-left: 10px;
   }
 }

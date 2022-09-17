@@ -5,7 +5,9 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
+      <div
+        class="detail-container"
+      >
         <div>
           <p>
             Republic of Finland
@@ -64,24 +66,6 @@ Object {
             Northern Europe
           </p>
           <p>
-            Borders :
-            <span>
-                 
-              NOR
-               ,    
-            </span>
-            <span>
-                 
-              SWE
-               ,    
-            </span>
-            <span>
-                 
-              RUS
-               ,    
-            </span>
-          </p>
-          <p>
             Time Zone:
                
             UTC+02:00
@@ -96,7 +80,9 @@ Object {
     </div>
   </body>,
   "container": <div>
-    <div>
+    <div
+      class="detail-container"
+    >
       <div>
         <p>
           Republic of Finland
@@ -153,24 +139,6 @@ Object {
           Subregion :
              
           Northern Europe
-        </p>
-        <p>
-          Borders :
-          <span>
-               
-            NOR
-             ,    
-          </span>
-          <span>
-               
-            SWE
-             ,    
-          </span>
-          <span>
-               
-            RUS
-             ,    
-          </span>
         </p>
         <p>
           Time Zone:
