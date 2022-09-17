@@ -1,13 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins');
+
 body {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  color: #fff;
+  background-image: url('./assets/bg3.jpg');
+  background-size: cover;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  padding: 0 50px 50px 50px;
+  flex-grow: 1;
+  align-self: center;
+}
+
+.back {
+  padding: 50px 50px 0 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .detail-container {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    gap: 10px;
+    padding: 0 50px 50px 50px;
+    flex-grow: 1;
+  }
+
+  .detail-flag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .space-global {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .space-elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 80vw;
+    flex-wrap: wrap;
+  }
+
+  .back {
+    padding: 0 0 0 15px;
+    align-self: flex-start;
+  }
 }
