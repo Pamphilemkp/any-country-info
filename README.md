@@ -15,6 +15,10 @@ Single page application giving general informations about  any country in the wo
 - API
 - Testing
 
+## App Screenshot
+
+![anycountry](https://user-images.githubusercontent.com/98436409/214838042-522f6ca0-eb76-404f-ae8c-adc5b6459ff5.jpg)
+
 ## Live Demo 
 
 [Live Demo Link](https://pamphilemkp-countries-info.netlify.app/)
